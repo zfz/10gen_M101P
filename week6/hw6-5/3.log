@@ -1,0 +1,302 @@
+Fri Jul 26 16:52:06.233 [initandlisten] MongoDB starting : pid=934 port=27019 dbpath=/Users/zfz/Documents/10gen:M101P/week6/hw6-5/../../data/rs3 64-bit host=zfzs-MacBook-Pro.local
+Fri Jul 26 16:52:06.233 [initandlisten] 
+Fri Jul 26 16:52:06.233 [initandlisten] ** WARNING: soft rlimits too low. Number of files is 256, should be at least 1000
+Fri Jul 26 16:52:06.233 [initandlisten] db version v2.4.3
+Fri Jul 26 16:52:06.233 [initandlisten] git version: fe1743177a5ea03e91e0052fb5e2cb2945f6d95f
+Fri Jul 26 16:52:06.233 [initandlisten] build info: Darwin bs-osx-106-x86-64-1.local 10.8.0 Darwin Kernel Version 10.8.0: Tue Jun  7 16:33:36 PDT 2011; root:xnu-1504.15.3~1/RELEASE_I386 i386 BOOST_LIB_VERSION=1_49
+Fri Jul 26 16:52:06.233 [initandlisten] allocator: system
+Fri Jul 26 16:52:06.233 [initandlisten] options: { bind_ip: "127.0.0.1", config: "/usr/local/etc/mongod.conf", dbpath: "../../data/rs3", fork: true, logappend: "true", logpath: "3.log", port: 27019, replSet: "m101", smallfiles: true }
+Fri Jul 26 16:52:06.289 [initandlisten] journal dir=/Users/zfz/Documents/10gen:M101P/week6/hw6-5/../../data/rs3/journal
+Fri Jul 26 16:52:06.290 [initandlisten] recover : no journal files present, no recovery needed
+Fri Jul 26 16:52:06.494 [initandlisten] preallocateIsFaster=true 3.24
+Fri Jul 26 16:52:06.526 [FileAllocator] allocating new datafile /Users/zfz/Documents/10gen:M101P/week6/hw6-5/../../data/rs3/local.ns, filling with zeroes...
+Fri Jul 26 16:52:06.526 [FileAllocator] creating directory /Users/zfz/Documents/10gen:M101P/week6/hw6-5/../../data/rs3/_tmp
+Fri Jul 26 16:52:06.541 [FileAllocator] done allocating datafile /Users/zfz/Documents/10gen:M101P/week6/hw6-5/../../data/rs3/local.ns, size: 16MB,  took 0.014 secs
+Fri Jul 26 16:52:06.614 [FileAllocator] allocating new datafile /Users/zfz/Documents/10gen:M101P/week6/hw6-5/../../data/rs3/local.0, filling with zeroes...
+Fri Jul 26 16:52:06.629 [FileAllocator] done allocating datafile /Users/zfz/Documents/10gen:M101P/week6/hw6-5/../../data/rs3/local.0, size: 16MB,  took 0.014 secs
+Fri Jul 26 16:52:06.763 [initandlisten] command local.$cmd command: { create: "startup_log", size: 10485760, capped: true } ntoreturn:1 keyUpdates:0  reslen:37 236ms
+Fri Jul 26 16:52:06.763 [websvr] admin web console waiting for connections on port 28019
+Fri Jul 26 16:52:06.763 [initandlisten] waiting for connections on port 27019
+Fri Jul 26 16:52:06.764 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Fri Jul 26 16:52:06.765 [rsStart] replSet info you may need to run replSetInitiate -- rs.initiate() in the shell -- if that is not already done
+Fri Jul 26 16:52:16.766 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Fri Jul 26 16:52:26.767 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Fri Jul 26 16:52:36.768 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Fri Jul 26 16:52:46.769 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Fri Jul 26 16:52:56.769 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Fri Jul 26 16:53:06.770 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Fri Jul 26 16:53:16.772 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Fri Jul 26 16:53:26.772 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Fri Jul 26 16:53:36.773 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Fri Jul 26 16:53:46.774 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Fri Jul 26 16:53:56.775 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Fri Jul 26 16:54:06.776 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Fri Jul 26 16:54:15.304 [initandlisten] connection accepted from 127.0.0.1:56612 #1 (1 connection now open)
+Fri Jul 26 16:54:16.777 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Fri Jul 26 16:54:26.778 [rsStart] trying to contact localhost:27017
+Fri Jul 26 16:54:26.779 [rsStart] replSet I am localhost:27019
+Fri Jul 26 16:54:26.779 [rsStart] replSet got config version 1 from a remote, saving locally
+Fri Jul 26 16:54:26.780 [rsStart] replSet info saving a newer config version to local.system.replset
+Fri Jul 26 16:54:26.782 [rsStart] replSet saveConfigLocally done
+Fri Jul 26 16:54:26.782 [rsStart] replSet STARTUP2
+Fri Jul 26 16:54:26.782 [rsSync] ******
+Fri Jul 26 16:54:26.782 [rsSync] creating replication oplog of size: 192MB...
+Fri Jul 26 16:54:26.783 [FileAllocator] allocating new datafile /Users/zfz/Documents/10gen:M101P/week6/hw6-5/../../data/rs3/local.1, filling with zeroes...
+Fri Jul 26 16:54:28.466 [initandlisten] connection accepted from 127.0.0.1:56615 #2 (2 connections now open)
+Fri Jul 26 16:54:28.781 [rsHealthPoll] replSet member localhost:27017 is up
+Fri Jul 26 16:54:28.781 [rsHealthPoll] replSet member localhost:27017 is now in state SECONDARY
+Fri Jul 26 16:54:28.781 [rsHealthPoll] replSet member localhost:27018 is up
+Fri Jul 26 16:54:28.782 [rsHealthPoll] replSet member localhost:27018 is now in state STARTUP2
+Fri Jul 26 16:54:31.315 [FileAllocator] done allocating datafile /Users/zfz/Documents/10gen:M101P/week6/hw6-5/../../data/rs3/local.1, size: 256MB,  took 4.484 secs
+Fri Jul 26 16:54:31.475 [rsSync] ******
+Fri Jul 26 16:54:31.475 [rsSync] replSet initial sync pending
+Fri Jul 26 16:54:31.475 [rsSync] replSet initial sync need a member to be primary or secondary to do our initial sync
+Fri Jul 26 16:54:34.157 [conn1] replSet RECOVERING
+Fri Jul 26 16:54:34.157 [conn1] replSet info voting yea for localhost:27017 (0)
+Fri Jul 26 16:54:34.785 [rsHealthPoll] replSet member localhost:27018 is now in state RECOVERING
+Fri Jul 26 16:54:36.787 [rsHealthPoll] replSet member localhost:27017 is now in state PRIMARY
+Fri Jul 26 16:54:36.787 [rsHealthPoll] replSet member localhost:27018 is now in state SECONDARY
+Fri Jul 26 16:54:47.477 [rsSync] replSet initial sync pending
+Fri Jul 26 16:54:47.477 [rsSync] replSet syncing to: localhost:27017
+Fri Jul 26 16:54:47.479 [rsSync] build index local.me { _id: 1 }
+Fri Jul 26 16:54:47.480 [rsSync] build index done.  scanned 0 total records. 0 secs
+Fri Jul 26 16:54:47.482 [rsSync] build index local.replset.minvalid { _id: 1 }
+Fri Jul 26 16:54:47.482 [rsSync] build index done.  scanned 0 total records. 0 secs
+Fri Jul 26 16:54:47.482 [rsSync] replSet initial sync drop all databases
+Fri Jul 26 16:54:47.482 [rsSync] dropAllDatabasesExceptLocal 1
+Fri Jul 26 16:54:47.482 [rsSync] replSet initial sync clone all databases
+Fri Jul 26 16:54:47.483 [rsSync] replSet initial sync data copy, starting syncup
+Fri Jul 26 16:54:47.483 [rsSync] oplog sync 1 of 3
+Fri Jul 26 16:54:47.483 [rsSync] oplog sync 2 of 3
+Fri Jul 26 16:54:47.483 [rsSync] replSet initial sync building indexes
+Fri Jul 26 16:54:47.483 [rsSync] oplog sync 3 of 3
+Fri Jul 26 16:54:47.484 [rsSync] replSet initial sync finishing up
+Fri Jul 26 16:54:47.501 [rsSync] replSet set minValid=51f23939:1
+Fri Jul 26 16:54:47.512 [rsSync] replSet initial sync done
+Fri Jul 26 16:54:47.799 [rsBackgroundSync] replSet syncing to: localhost:27017
+Fri Jul 26 16:54:48.167 [conn1] end connection 127.0.0.1:56612 (1 connection now open)
+Fri Jul 26 16:54:48.167 [initandlisten] connection accepted from 127.0.0.1:56626 #3 (2 connections now open)
+Fri Jul 26 16:54:48.513 [rsSyncNotifier] replset setting oplog notifier to localhost:27017
+Fri Jul 26 16:54:49.515 [rsSync] replSet SECONDARY
+Fri Jul 26 16:54:56.484 [conn2] end connection 127.0.0.1:56615 (1 connection now open)
+Fri Jul 26 16:54:56.485 [initandlisten] connection accepted from 127.0.0.1:56628 #4 (2 connections now open)
+Fri Jul 26 16:55:13.584 [initandlisten] connection accepted from 127.0.0.1:56634 #5 (3 connections now open)
+Fri Jul 26 16:55:13.588 [conn5] end connection 127.0.0.1:56634 (2 connections now open)
+Fri Jul 26 16:55:18.186 [conn3] end connection 127.0.0.1:56626 (1 connection now open)
+Fri Jul 26 16:55:18.187 [initandlisten] connection accepted from 127.0.0.1:56636 #6 (2 connections now open)
+Fri Jul 26 16:55:26.506 [conn4] end connection 127.0.0.1:56628 (1 connection now open)
+Fri Jul 26 16:55:26.507 [initandlisten] connection accepted from 127.0.0.1:56639 #7 (2 connections now open)
+Fri Jul 26 16:55:48.204 [conn6] end connection 127.0.0.1:56636 (1 connection now open)
+Fri Jul 26 16:55:48.205 [initandlisten] connection accepted from 127.0.0.1:56648 #8 (2 connections now open)
+Fri Jul 26 16:55:56.526 [conn7] end connection 127.0.0.1:56639 (1 connection now open)
+Fri Jul 26 16:55:56.526 [initandlisten] connection accepted from 127.0.0.1:56649 #9 (2 connections now open)
+Fri Jul 26 16:56:18.224 [conn8] end connection 127.0.0.1:56648 (1 connection now open)
+Fri Jul 26 16:56:18.224 [initandlisten] connection accepted from 127.0.0.1:56654 #10 (2 connections now open)
+Fri Jul 26 16:56:26.543 [conn9] end connection 127.0.0.1:56649 (1 connection now open)
+Fri Jul 26 16:56:26.544 [initandlisten] connection accepted from 127.0.0.1:56655 #11 (2 connections now open)
+Fri Jul 26 16:56:48.244 [conn10] end connection 127.0.0.1:56654 (1 connection now open)
+Fri Jul 26 16:56:48.244 [initandlisten] connection accepted from 127.0.0.1:56660 #12 (3 connections now open)
+Fri Jul 26 16:56:56.563 [conn11] end connection 127.0.0.1:56655 (1 connection now open)
+Fri Jul 26 16:56:56.563 [initandlisten] connection accepted from 127.0.0.1:56661 #13 (3 connections now open)
+Fri Jul 26 16:57:18.265 [conn12] end connection 127.0.0.1:56660 (1 connection now open)
+Fri Jul 26 16:57:18.266 [initandlisten] connection accepted from 127.0.0.1:56666 #14 (2 connections now open)
+Fri Jul 26 16:57:26.584 [conn13] end connection 127.0.0.1:56661 (1 connection now open)
+Fri Jul 26 16:57:26.585 [initandlisten] connection accepted from 127.0.0.1:56667 #15 (2 connections now open)
+Fri Jul 26 16:57:48.287 [conn14] end connection 127.0.0.1:56666 (1 connection now open)
+Fri Jul 26 16:57:48.287 [initandlisten] connection accepted from 127.0.0.1:56672 #16 (2 connections now open)
+Fri Jul 26 16:57:56.605 [conn15] end connection 127.0.0.1:56667 (1 connection now open)
+Fri Jul 26 16:57:56.605 [initandlisten] connection accepted from 127.0.0.1:56673 #17 (2 connections now open)
+Fri Jul 26 16:58:18.308 [conn16] end connection 127.0.0.1:56672 (1 connection now open)
+Fri Jul 26 16:58:18.309 [initandlisten] connection accepted from 127.0.0.1:56680 #18 (3 connections now open)
+Fri Jul 26 16:58:26.625 [conn17] end connection 127.0.0.1:56673 (1 connection now open)
+Fri Jul 26 16:58:26.625 [initandlisten] connection accepted from 127.0.0.1:56681 #19 (3 connections now open)
+Fri Jul 26 16:58:48.329 [conn18] end connection 127.0.0.1:56680 (1 connection now open)
+Fri Jul 26 16:58:48.329 [initandlisten] connection accepted from 127.0.0.1:56686 #20 (3 connections now open)
+Fri Jul 26 16:58:56.645 [conn19] end connection 127.0.0.1:56681 (1 connection now open)
+Fri Jul 26 16:58:56.646 [initandlisten] connection accepted from 127.0.0.1:56690 #21 (2 connections now open)
+Fri Jul 26 16:59:18.347 [conn20] end connection 127.0.0.1:56686 (1 connection now open)
+Fri Jul 26 16:59:18.348 [initandlisten] connection accepted from 127.0.0.1:56695 #22 (3 connections now open)
+Fri Jul 26 16:59:26.666 [conn21] end connection 127.0.0.1:56690 (1 connection now open)
+Fri Jul 26 16:59:26.667 [initandlisten] connection accepted from 127.0.0.1:56696 #23 (2 connections now open)
+Fri Jul 26 16:59:48.370 [conn22] end connection 127.0.0.1:56695 (1 connection now open)
+Fri Jul 26 16:59:48.370 [initandlisten] connection accepted from 127.0.0.1:56701 #24 (2 connections now open)
+Fri Jul 26 16:59:56.685 [conn23] end connection 127.0.0.1:56696 (1 connection now open)
+Fri Jul 26 16:59:56.686 [initandlisten] connection accepted from 127.0.0.1:56702 #25 (2 connections now open)
+Fri Jul 26 17:00:18.386 [conn24] end connection 127.0.0.1:56701 (1 connection now open)
+Fri Jul 26 17:00:18.387 [initandlisten] connection accepted from 127.0.0.1:56707 #26 (2 connections now open)
+Fri Jul 26 17:00:26.707 [conn25] end connection 127.0.0.1:56702 (1 connection now open)
+Fri Jul 26 17:00:26.707 [initandlisten] connection accepted from 127.0.0.1:56708 #27 (2 connections now open)
+Fri Jul 26 17:00:48.407 [conn26] end connection 127.0.0.1:56707 (1 connection now open)
+Fri Jul 26 17:00:48.407 [initandlisten] connection accepted from 127.0.0.1:56713 #28 (3 connections now open)
+Fri Jul 26 17:00:56.728 [conn27] end connection 127.0.0.1:56708 (1 connection now open)
+Fri Jul 26 17:00:56.728 [initandlisten] connection accepted from 127.0.0.1:56714 #29 (3 connections now open)
+Fri Jul 26 17:01:18.426 [conn28] end connection 127.0.0.1:56713 (1 connection now open)
+Fri Jul 26 17:01:18.427 [initandlisten] connection accepted from 127.0.0.1:56719 #30 (2 connections now open)
+Fri Jul 26 17:01:26.748 [conn29] end connection 127.0.0.1:56714 (1 connection now open)
+Fri Jul 26 17:01:26.748 [initandlisten] connection accepted from 127.0.0.1:56720 #31 (2 connections now open)
+Fri Jul 26 17:01:48.448 [conn30] end connection 127.0.0.1:56719 (1 connection now open)
+Fri Jul 26 17:01:48.449 [initandlisten] connection accepted from 127.0.0.1:56725 #32 (3 connections now open)
+Fri Jul 26 17:01:56.770 [conn31] end connection 127.0.0.1:56720 (1 connection now open)
+Fri Jul 26 17:01:56.771 [initandlisten] connection accepted from 127.0.0.1:56726 #33 (2 connections now open)
+Fri Jul 26 17:02:18.471 [conn32] end connection 127.0.0.1:56725 (1 connection now open)
+Fri Jul 26 17:02:18.471 [initandlisten] connection accepted from 127.0.0.1:56731 #34 (2 connections now open)
+Fri Jul 26 17:02:26.789 [conn33] end connection 127.0.0.1:56726 (1 connection now open)
+Fri Jul 26 17:02:26.790 [initandlisten] connection accepted from 127.0.0.1:56732 #35 (2 connections now open)
+Fri Jul 26 17:02:48.493 [conn34] end connection 127.0.0.1:56731 (1 connection now open)
+Fri Jul 26 17:02:48.493 [initandlisten] connection accepted from 127.0.0.1:56737 #36 (3 connections now open)
+Fri Jul 26 17:02:56.810 [conn35] end connection 127.0.0.1:56732 (1 connection now open)
+Fri Jul 26 17:02:56.810 [initandlisten] connection accepted from 127.0.0.1:56739 #37 (2 connections now open)
+Fri Jul 26 17:03:18.514 [conn36] end connection 127.0.0.1:56737 (1 connection now open)
+Fri Jul 26 17:03:18.514 [initandlisten] connection accepted from 127.0.0.1:56745 #38 (3 connections now open)
+Fri Jul 26 17:03:26.827 [conn37] end connection 127.0.0.1:56739 (1 connection now open)
+Fri Jul 26 17:03:26.828 [initandlisten] connection accepted from 127.0.0.1:56746 #39 (2 connections now open)
+Fri Jul 26 17:03:48.535 [conn38] end connection 127.0.0.1:56745 (1 connection now open)
+Fri Jul 26 17:03:48.536 [initandlisten] connection accepted from 127.0.0.1:56751 #40 (2 connections now open)
+Fri Jul 26 17:03:56.849 [conn39] end connection 127.0.0.1:56746 (1 connection now open)
+Fri Jul 26 17:03:56.849 [initandlisten] connection accepted from 127.0.0.1:56752 #41 (3 connections now open)
+Fri Jul 26 17:04:18.557 [conn40] end connection 127.0.0.1:56751 (1 connection now open)
+Fri Jul 26 17:04:18.558 [initandlisten] connection accepted from 127.0.0.1:56757 #42 (2 connections now open)
+Fri Jul 26 17:04:26.870 [conn41] end connection 127.0.0.1:56752 (1 connection now open)
+Fri Jul 26 17:04:26.870 [initandlisten] connection accepted from 127.0.0.1:56758 #43 (2 connections now open)
+Fri Jul 26 17:04:48.579 [conn42] end connection 127.0.0.1:56757 (1 connection now open)
+Fri Jul 26 17:04:48.580 [initandlisten] connection accepted from 127.0.0.1:56763 #44 (2 connections now open)
+Fri Jul 26 17:04:56.890 [conn43] end connection 127.0.0.1:56758 (1 connection now open)
+Fri Jul 26 17:04:56.891 [initandlisten] connection accepted from 127.0.0.1:56764 #45 (2 connections now open)
+Fri Jul 26 17:05:18.597 [conn44] end connection 127.0.0.1:56763 (1 connection now open)
+Fri Jul 26 17:05:18.597 [initandlisten] connection accepted from 127.0.0.1:56775 #46 (2 connections now open)
+Fri Jul 26 17:05:26.909 [conn45] end connection 127.0.0.1:56764 (1 connection now open)
+Fri Jul 26 17:05:26.910 [initandlisten] connection accepted from 127.0.0.1:56776 #47 (2 connections now open)
+Fri Jul 26 17:05:48.615 [conn46] end connection 127.0.0.1:56775 (1 connection now open)
+Fri Jul 26 17:05:48.616 [initandlisten] connection accepted from 127.0.0.1:56781 #48 (3 connections now open)
+Fri Jul 26 17:05:56.929 [conn47] end connection 127.0.0.1:56776 (1 connection now open)
+Fri Jul 26 17:05:56.930 [initandlisten] connection accepted from 127.0.0.1:56782 #49 (3 connections now open)
+Fri Jul 26 17:06:18.634 [conn48] end connection 127.0.0.1:56781 (1 connection now open)
+Fri Jul 26 17:06:18.634 [initandlisten] connection accepted from 127.0.0.1:56787 #50 (3 connections now open)
+Fri Jul 26 17:06:26.950 [conn49] end connection 127.0.0.1:56782 (1 connection now open)
+Fri Jul 26 17:06:26.950 [initandlisten] connection accepted from 127.0.0.1:56788 #51 (2 connections now open)
+Fri Jul 26 17:06:48.653 [conn50] end connection 127.0.0.1:56787 (1 connection now open)
+Fri Jul 26 17:06:48.654 [initandlisten] connection accepted from 127.0.0.1:56793 #52 (3 connections now open)
+Fri Jul 26 17:06:56.969 [conn51] end connection 127.0.0.1:56788 (1 connection now open)
+Fri Jul 26 17:06:56.969 [initandlisten] connection accepted from 127.0.0.1:56794 #53 (2 connections now open)
+Fri Jul 26 17:07:18.673 [conn52] end connection 127.0.0.1:56793 (1 connection now open)
+Fri Jul 26 17:07:18.674 [initandlisten] connection accepted from 127.0.0.1:56799 #54 (2 connections now open)
+Fri Jul 26 17:07:26.990 [conn53] end connection 127.0.0.1:56794 (1 connection now open)
+Fri Jul 26 17:07:26.991 [initandlisten] connection accepted from 127.0.0.1:56800 #55 (2 connections now open)
+Fri Jul 26 17:07:48.691 [conn54] end connection 127.0.0.1:56799 (1 connection now open)
+Fri Jul 26 17:07:48.691 [initandlisten] connection accepted from 127.0.0.1:56805 #56 (2 connections now open)
+Fri Jul 26 17:07:57.009 [conn55] end connection 127.0.0.1:56800 (1 connection now open)
+Fri Jul 26 17:07:57.009 [initandlisten] connection accepted from 127.0.0.1:56806 #57 (2 connections now open)
+Fri Jul 26 17:08:18.710 [conn56] end connection 127.0.0.1:56805 (1 connection now open)
+Fri Jul 26 17:08:18.710 [initandlisten] connection accepted from 127.0.0.1:56811 #58 (2 connections now open)
+Fri Jul 26 17:08:27.028 [conn57] end connection 127.0.0.1:56806 (1 connection now open)
+Fri Jul 26 17:08:27.029 [initandlisten] connection accepted from 127.0.0.1:56812 #59 (2 connections now open)
+Fri Jul 26 17:08:48.729 [conn58] end connection 127.0.0.1:56811 (1 connection now open)
+Fri Jul 26 17:08:48.730 [initandlisten] connection accepted from 127.0.0.1:56817 #60 (2 connections now open)
+Fri Jul 26 17:08:57.049 [conn59] end connection 127.0.0.1:56812 (1 connection now open)
+Fri Jul 26 17:08:57.050 [initandlisten] connection accepted from 127.0.0.1:56818 #61 (3 connections now open)
+Fri Jul 26 17:09:18.751 [conn60] end connection 127.0.0.1:56817 (1 connection now open)
+Fri Jul 26 17:09:18.751 [initandlisten] connection accepted from 127.0.0.1:56823 #62 (3 connections now open)
+Fri Jul 26 17:09:27.070 [conn61] end connection 127.0.0.1:56818 (1 connection now open)
+Fri Jul 26 17:09:27.071 [initandlisten] connection accepted from 127.0.0.1:56824 #63 (2 connections now open)
+Fri Jul 26 17:09:48.771 [conn62] end connection 127.0.0.1:56823 (1 connection now open)
+Fri Jul 26 17:09:48.771 [initandlisten] connection accepted from 127.0.0.1:56829 #64 (2 connections now open)
+Fri Jul 26 17:09:57.091 [conn63] end connection 127.0.0.1:56824 (1 connection now open)
+Fri Jul 26 17:09:57.091 [initandlisten] connection accepted from 127.0.0.1:56830 #65 (2 connections now open)
+Fri Jul 26 17:10:18.792 [conn64] end connection 127.0.0.1:56829 (1 connection now open)
+Fri Jul 26 17:10:18.793 [initandlisten] connection accepted from 127.0.0.1:56835 #66 (3 connections now open)
+Fri Jul 26 17:10:27.113 [conn65] end connection 127.0.0.1:56830 (1 connection now open)
+Fri Jul 26 17:10:27.113 [initandlisten] connection accepted from 127.0.0.1:56838 #67 (3 connections now open)
+Fri Jul 26 17:10:48.812 [conn66] end connection 127.0.0.1:56835 (1 connection now open)
+Fri Jul 26 17:10:48.812 [initandlisten] connection accepted from 127.0.0.1:56843 #68 (2 connections now open)
+Fri Jul 26 17:10:57.132 [conn67] end connection 127.0.0.1:56838 (1 connection now open)
+Fri Jul 26 17:10:57.132 [initandlisten] connection accepted from 127.0.0.1:56844 #69 (2 connections now open)
+Fri Jul 26 17:11:18.832 [conn68] end connection 127.0.0.1:56843 (1 connection now open)
+Fri Jul 26 17:11:18.833 [initandlisten] connection accepted from 127.0.0.1:56849 #70 (2 connections now open)
+Fri Jul 26 17:11:27.151 [conn69] end connection 127.0.0.1:56844 (1 connection now open)
+Fri Jul 26 17:11:27.152 [initandlisten] connection accepted from 127.0.0.1:56850 #71 (2 connections now open)
+Fri Jul 26 17:11:48.852 [conn70] end connection 127.0.0.1:56849 (1 connection now open)
+Fri Jul 26 17:11:48.852 [initandlisten] connection accepted from 127.0.0.1:56881 #72 (2 connections now open)
+Fri Jul 26 17:11:57.170 [conn71] end connection 127.0.0.1:56850 (1 connection now open)
+Fri Jul 26 17:11:57.171 [initandlisten] connection accepted from 127.0.0.1:56890 #73 (3 connections now open)
+Fri Jul 26 17:12:18.871 [conn72] end connection 127.0.0.1:56881 (1 connection now open)
+Fri Jul 26 17:12:18.871 [initandlisten] connection accepted from 127.0.0.1:56900 #74 (2 connections now open)
+Fri Jul 26 17:12:27.192 [conn73] end connection 127.0.0.1:56890 (1 connection now open)
+Fri Jul 26 17:12:27.192 [initandlisten] connection accepted from 127.0.0.1:56901 #75 (3 connections now open)
+Fri Jul 26 17:12:48.891 [conn74] end connection 127.0.0.1:56900 (1 connection now open)
+Fri Jul 26 17:12:48.891 [initandlisten] connection accepted from 127.0.0.1:56906 #76 (2 connections now open)
+Fri Jul 26 17:12:57.214 [conn75] end connection 127.0.0.1:56901 (1 connection now open)
+Fri Jul 26 17:12:57.214 [initandlisten] connection accepted from 127.0.0.1:56907 #77 (2 connections now open)
+Fri Jul 26 17:13:18.911 [conn76] end connection 127.0.0.1:56906 (1 connection now open)
+Fri Jul 26 17:13:18.911 [initandlisten] connection accepted from 127.0.0.1:56914 #78 (2 connections now open)
+Fri Jul 26 17:13:27.233 [conn77] end connection 127.0.0.1:56907 (1 connection now open)
+Fri Jul 26 17:13:27.233 [initandlisten] connection accepted from 127.0.0.1:56929 #79 (2 connections now open)
+Fri Jul 26 17:13:48.931 [conn78] end connection 127.0.0.1:56914 (1 connection now open)
+Fri Jul 26 17:13:48.932 [initandlisten] connection accepted from 127.0.0.1:56934 #80 (2 connections now open)
+Fri Jul 26 17:13:57.250 [conn79] end connection 127.0.0.1:56929 (1 connection now open)
+Fri Jul 26 17:13:57.250 [initandlisten] connection accepted from 127.0.0.1:56935 #81 (2 connections now open)
+Fri Jul 26 17:14:18.950 [conn80] end connection 127.0.0.1:56934 (1 connection now open)
+Fri Jul 26 17:14:18.950 [initandlisten] connection accepted from 127.0.0.1:56940 #82 (2 connections now open)
+Fri Jul 26 17:14:27.269 [conn81] end connection 127.0.0.1:56935 (1 connection now open)
+Fri Jul 26 17:14:27.270 [initandlisten] connection accepted from 127.0.0.1:56941 #83 (3 connections now open)
+Fri Jul 26 17:14:48.972 [conn82] end connection 127.0.0.1:56940 (1 connection now open)
+Fri Jul 26 17:14:48.972 [initandlisten] connection accepted from 127.0.0.1:56952 #84 (2 connections now open)
+Fri Jul 26 17:14:57.291 [conn83] end connection 127.0.0.1:56941 (1 connection now open)
+Fri Jul 26 17:14:57.292 [initandlisten] connection accepted from 127.0.0.1:56953 #85 (2 connections now open)
+Fri Jul 26 17:15:18.991 [conn84] end connection 127.0.0.1:56952 (1 connection now open)
+Fri Jul 26 17:15:18.991 [initandlisten] connection accepted from 127.0.0.1:56963 #86 (2 connections now open)
+Fri Jul 26 17:15:27.312 [conn85] end connection 127.0.0.1:56953 (1 connection now open)
+Fri Jul 26 17:15:27.313 [initandlisten] connection accepted from 127.0.0.1:56964 #87 (3 connections now open)
+Fri Jul 26 17:15:49.012 [conn86] end connection 127.0.0.1:56963 (1 connection now open)
+Fri Jul 26 17:15:49.013 [initandlisten] connection accepted from 127.0.0.1:56969 #88 (2 connections now open)
+Fri Jul 26 17:15:57.334 [conn87] end connection 127.0.0.1:56964 (1 connection now open)
+Fri Jul 26 17:15:57.334 [initandlisten] connection accepted from 127.0.0.1:56970 #89 (2 connections now open)
+Fri Jul 26 17:16:19.030 [conn88] end connection 127.0.0.1:56969 (1 connection now open)
+Fri Jul 26 17:16:19.030 [initandlisten] connection accepted from 127.0.0.1:56975 #90 (2 connections now open)
+Fri Jul 26 17:16:27.355 [conn89] end connection 127.0.0.1:56970 (1 connection now open)
+Fri Jul 26 17:16:27.355 [initandlisten] connection accepted from 127.0.0.1:56976 #91 (3 connections now open)
+Fri Jul 26 17:16:49.050 [conn90] end connection 127.0.0.1:56975 (1 connection now open)
+Fri Jul 26 17:16:49.050 [initandlisten] connection accepted from 127.0.0.1:56981 #92 (2 connections now open)
+Fri Jul 26 17:16:57.376 [conn91] end connection 127.0.0.1:56976 (1 connection now open)
+Fri Jul 26 17:16:57.377 [initandlisten] connection accepted from 127.0.0.1:56982 #93 (2 connections now open)
+Fri Jul 26 17:17:19.071 [conn92] end connection 127.0.0.1:56981 (1 connection now open)
+Fri Jul 26 17:17:19.071 [initandlisten] connection accepted from 127.0.0.1:56987 #94 (2 connections now open)
+Fri Jul 26 17:17:27.396 [conn93] end connection 127.0.0.1:56982 (1 connection now open)
+Fri Jul 26 17:17:27.397 [initandlisten] connection accepted from 127.0.0.1:56988 #95 (2 connections now open)
+Fri Jul 26 17:17:49.091 [conn94] end connection 127.0.0.1:56987 (1 connection now open)
+Fri Jul 26 17:17:49.092 [initandlisten] connection accepted from 127.0.0.1:57001 #96 (2 connections now open)
+Fri Jul 26 17:17:57.417 [conn95] end connection 127.0.0.1:56988 (1 connection now open)
+Fri Jul 26 17:17:57.417 [initandlisten] connection accepted from 127.0.0.1:57039 #97 (2 connections now open)
+Fri Jul 26 17:18:19.111 [conn96] end connection 127.0.0.1:57001 (1 connection now open)
+Fri Jul 26 17:18:19.111 [initandlisten] connection accepted from 127.0.0.1:57044 #98 (2 connections now open)
+Fri Jul 26 17:18:27.438 [conn97] end connection 127.0.0.1:57039 (1 connection now open)
+Fri Jul 26 17:18:27.439 [initandlisten] connection accepted from 127.0.0.1:57045 #99 (2 connections now open)
+Fri Jul 26 17:18:49.131 [conn98] end connection 127.0.0.1:57044 (1 connection now open)
+Fri Jul 26 17:18:49.131 [initandlisten] connection accepted from 127.0.0.1:57050 #100 (2 connections now open)
+Fri Jul 26 17:18:57.458 [conn99] end connection 127.0.0.1:57045 (1 connection now open)
+Fri Jul 26 17:18:57.459 [initandlisten] connection accepted from 127.0.0.1:57053 #101 (2 connections now open)
+Fri Jul 26 17:19:19.152 [conn100] end connection 127.0.0.1:57050 (1 connection now open)
+Fri Jul 26 17:19:19.152 [initandlisten] connection accepted from 127.0.0.1:57059 #102 (2 connections now open)
+Fri Jul 26 17:19:27.478 [conn101] end connection 127.0.0.1:57053 (1 connection now open)
+Fri Jul 26 17:19:27.478 [initandlisten] connection accepted from 127.0.0.1:57060 #103 (2 connections now open)
+Fri Jul 26 17:19:49.173 [conn102] end connection 127.0.0.1:57059 (1 connection now open)
+Fri Jul 26 17:19:49.173 [initandlisten] connection accepted from 127.0.0.1:57065 #104 (2 connections now open)
+Fri Jul 26 17:19:57.497 [conn103] end connection 127.0.0.1:57060 (1 connection now open)
+Fri Jul 26 17:19:57.498 [initandlisten] connection accepted from 127.0.0.1:57066 #105 (2 connections now open)
+Fri Jul 26 17:20:19.193 [conn104] end connection 127.0.0.1:57065 (1 connection now open)
+Fri Jul 26 17:20:19.193 [initandlisten] connection accepted from 127.0.0.1:57073 #106 (2 connections now open)
+Fri Jul 26 17:20:27.517 [conn105] end connection 127.0.0.1:57066 (1 connection now open)
+Fri Jul 26 17:20:27.517 [initandlisten] connection accepted from 127.0.0.1:57094 #107 (3 connections now open)
+Fri Jul 26 17:20:49.212 [conn106] end connection 127.0.0.1:57073 (1 connection now open)
+Fri Jul 26 17:20:49.212 [initandlisten] connection accepted from 127.0.0.1:57099 #108 (2 connections now open)
+Fri Jul 26 17:20:57.537 [conn107] end connection 127.0.0.1:57094 (1 connection now open)
+Fri Jul 26 17:20:57.537 [initandlisten] connection accepted from 127.0.0.1:57100 #109 (3 connections now open)
+Fri Jul 26 17:21:19.233 [conn108] end connection 127.0.0.1:57099 (1 connection now open)
+Fri Jul 26 17:21:19.233 [initandlisten] connection accepted from 127.0.0.1:57105 #110 (2 connections now open)
+Fri Jul 26 17:21:27.558 [conn109] end connection 127.0.0.1:57100 (1 connection now open)
+Fri Jul 26 17:21:27.558 [initandlisten] connection accepted from 127.0.0.1:57106 #111 (3 connections now open)
+Fri Jul 26 17:21:49.252 [conn110] end connection 127.0.0.1:57105 (1 connection now open)
+Fri Jul 26 17:21:49.253 [initandlisten] connection accepted from 127.0.0.1:57111 #112 (2 connections now open)
+Fri Jul 26 17:21:57.579 [conn111] end connection 127.0.0.1:57106 (1 connection now open)
+Fri Jul 26 17:21:57.579 [initandlisten] connection accepted from 127.0.0.1:57112 #113 (3 connections now open)
+Fri Jul 26 17:22:19.273 [conn112] end connection 127.0.0.1:57111 (1 connection now open)
+Fri Jul 26 17:22:19.273 [initandlisten] connection accepted from 127.0.0.1:57119 #114 (2 connections now open)
